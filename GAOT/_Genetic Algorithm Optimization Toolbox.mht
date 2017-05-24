@@ -1,0 +1,130 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: Genetic Algorithm Optimization Toolbox
+Date: Mon, 6 Aug 2007 12:38:03 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1896
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Genetic Algorithm Optimization Toolbox</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dgb2312">
+<META content=3D"MSHTML 6.00.2800.1595" name=3DGENERATOR></HEAD>
+<BODY bgColor=3D#ffffff><IMG height=3D180 src=3D"" width=3D540 =
+align=3Dcenter>&nbsp;=20
+<HR>
+
+<H1><A name=3DGAOT><EM>The Genetic Algorithm Optimization Toolbox (GAOT) =
+for=20
+Matlab 5</EM></A></H1>
+<HR>
+
+<P><EM>GAOT</EM> implements simulated evolution in the Matlab =
+environment using=20
+both binary and real representations. Ordered base representation has =
+also been=20
+added to the toolbox. This implementation is very flexible in the =
+genetic=20
+operators, selection functions, termination functions as well as the =
+evaluation=20
+functions that can be used. The implementation is described in a =
+technical=20
+paper. The paper can be referenced as follows:=20
+<P><I><A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/papers/gaotv5.ps">"=
+A Genetic=20
+Algorithm for Function Optimization: A Matlab Implementation"</A></I> by =
+<A=20
+href=3D"http://www.eos.ncsu.edu/eos/service/ie/research/fmmc_res/www/fac_=
+staff/houck.html">Chris=20
+Houck</A>, <A href=3D"http://www.ise.ncsu.edu/joines">Jeff Joines</A>, =
+and <A=20
+href=3D"http://www.ise.ncsu.edu/kay">Mike Kay</A>, NCSU-IE TR 95-09, =
+1995.</P>
+<P>The entire <A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/gaotindex.html">too=
+lbox</A>=20
+can be download either as a compressed tar archive (<A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/gaotv5.tar.gz">=20
+GAOT.tar.gz</A>) or a ZIP file (<A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/gaotv5.zip">GAOT.zi=
+p</A>).=20
+This includes the postscript and dvi versions of the companion paper.=20
+<P>The GA toolbox can be also obtained via anonymous ftp from the =
+following=20
+directory: <A=20
+href=3D"ftp://ftp.eos.ncsu.edu/pub/simul/GAOT">ftp://ftp.eos.ncsu.edu/pub=
+/simul/GAOT</A>=20
+as well as other <A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/#GAPAPERS">GA =
+related=20
+papers</A>.=20
+<H3>Copyright information</H3>This toolbox is copyrighted by the authors =
+and is=20
+free software. You can redistribute it and/or modify it under the terms =
+of the=20
+<A =
+href=3D"http://www.cs.utah.edu/csinfo/texinfo/emacs19/emacs_3.html#SEC3">=
+GNU=20
+General Public License</A> (GPL) as published by the Free Software =
+Foundation;=20
+either version 2 of the License, or (at your option) any later version.=20
+<H3>Requirements</H3>The only requirement is that you have Matlab =
+version 5 or=20
+later. The toolbox should work without any modifications.=20
+<H3>Changes from the Matlab 4 Version</H3>The only change of =
+significance is the=20
+order of return parameters in the evaluation functions. The evaluation =
+function=20
+required that the new fitness value and then individual be returned. =
+Owing to a=20
+change in the order of handling return values by Matlab, the values of =
+the=20
+indivual are turned and then the new fitness value is returned. This was =
+the=20
+simplest fix to get the Toolbox to work under Matlab 5. Also,=20
+<EM>initialize</EM> function has changed to <EM>initializega</EM> to =
+clear up=20
+some name conflicts.=20
+<H3>Documentation</H3>The companion paper (<A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/papers/gaot.ps">gao=
+t.ps</A>)=20
+describes the implementation. A <A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/README">README</A> =
+describes=20
+how to install GAOT on your system. To get a listing of the <A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/gaotindex.html">too=
+lbox</A>=20
+get help on GAOT in matlab. Three demonstrations are provided to help =
+the user=20
+as well as 4 example scripts using the binary, real, and order-based=20
+representations.
+<P>
+<H3>Comments, Problems and Suggestions</H3>Should you experience any =
+problem=20
+downloading the files or using the tool box, feel free to <A=20
+href=3D"mailto:jjoine@eos.ncsu.edu">email</A> me. If you have any =
+comments or=20
+suggestions for improvement or modifications please email me as well. If =
+you=20
+would like to be put on a mailing list when the files are updated or =
+modified,=20
+drop me an email.=20
+<P>
+<HR>
+
+<P>
+<H1><A name=3DGAPAPERS>Other GA related Papers</A></H1>
+<HR>
+<IMG src=3D"" align=3Dmiddle> people have visited this site since =
+2/7/96. <A=20
+href=3D"http://www.ise.ncsu.edu/mirage/GAToolBox/gaot/stats.html">[GAOT=20
+Statistics]</A>=20
+<HR>
+
+<ADDRESS><A=20
+href=3D"mailto:jjoine@eos.ncsu.edu">mailto:jjoine@eos.ncsu.edu</A></ADDRE=
+SS><!-- hhmts start -->Last=20
+modified: Fri Jun 12 10:22:12 EDT 1998 <!-- hhmts end --></BODY></HTML>
