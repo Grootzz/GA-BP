@@ -17,7 +17,7 @@
 2. getBPinfo：获取BP网络的基本信息。
 3. gabpEval：计算适应度
 4. normInit：数据获取，存入结构体Data.mat
-5 mainFun：主函数，完成训练和预测
+5. mainFun：主函数，完成训练和预测
 
 GAOT使用说明：
 因为项目中用到了GAOT工具包中的函数，所以需要将GAOT工具包加入路径
@@ -25,17 +25,17 @@ GAOT使用说明：
 这样，工程中就可以调用GAOT工具包中的函数了
 
 初始种群的生成函数：
-[pop]=initializega(num,bounds,eevalFN,eevalOps,options)
+> [pop]=initializega(num,bounds,eevalFN,eevalOps,options)
 【输出参数】
- pop--生成的初始种群
+ > pop--生成的初始种群
 【输入参数】
-num--种群中的个体数目
-bounds--代表变量的上下界的矩阵
-eevalFN--适应度函数
-eevalOps--传递给适应度函数的参数
-options--选择编码形式(浮点编码或是二进制编码)[precision F_or_B]
-precision--变量进行二进制编码时指定的精度
-F_or_B--为1时选择浮点编码，否则为二进制编码,由precision指定精度)
+> num--种群中的个体数目
+> bounds--代表变量的上下界的矩阵
+> eevalFN--适应度函数
+> eevalOps--传递给适应度函数的参数
+> options--选择编码形式(浮点编码或是二进制编码)[precision F_or_B]
+> precision--变量进行二进制编码时指定的精度
+> F_or_B--为1时选择浮点编码，否则为二进制编码,由precision指定精度)
 
 遗传算法函数：
 ````
