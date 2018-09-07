@@ -11,7 +11,7 @@
 2. passengerFlow.xlsx ： 客运量数据集，前7列为影响货运量的因素，第8列为客运量
 3. Data.mat：这是一个结构体，成员P为从客运量数据集，成员F为货运量数据集
 
-函数概述：
+### 函数概述：
 1. gadecod：对输入的染色体编码，编码方式一般有两种，实数编码和二进制编码。
                         此项目中对应的为实数编码，所以编码后的值即为解码后的值。
 2. getBPinfo：获取BP网络的基本信息。
@@ -19,12 +19,12 @@
 4. normInit：数据获取，存入结构体Data.mat
 5. mainFun：主函数，完成训练和预测
 
-GAOT使用说明：
-因为项目中用到了GAOT工具包中的函数，所以需要将GAOT工具包加入路径
+### GAOT使用说明：
+因为项目中用到了GAOT工具包中的函数，所以需要将GAOT工具包加入路径。
 操作步骤为：点击GAOT文件--->添加到路径--->选定文件夹和子文件夹
 这样，工程中就可以调用GAOT工具包中的函数了
 
-初始种群的生成函数：
+### 初始种群的生成函数：
 > [pop]=initializega(num,bounds,eevalFN,eevalOps,options)
 - 【输出参数】
  > pop--生成的初始种群
@@ -37,7 +37,7 @@ GAOT使用说明：
 > precision--变量进行二进制编码时指定的精度  
 > F_or_B--为1时选择浮点编码，否则为二进制编码,由precision指定精度)  
 
-遗传算法函数：
+### 遗传算法函数：
 ````
 [x,endPop,bPop,traceInfo]=ga(bounds,evalFN,evalOps,startPop,opts,termFN,termOps,selectFN,selectOps,xOverFNs,xOverOps,mutFNs,mutOps)
 【输出参数】
