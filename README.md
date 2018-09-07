@@ -38,6 +38,7 @@ precision--变量进行二进制编码时指定的精度
 F_or_B--为1时选择浮点编码，否则为二进制编码,由precision指定精度)
 
 遗传算法函数：
+````
 [x,endPop,bPop,traceInfo]=ga(bounds,evalFN,evalOps,startPop,opts,termFN,termOps,selectFN,selectOps,xOverFNs,xOverOps,mutFNs,mutOps)
 【输出参数】
 x--求得的最优解
@@ -58,5 +59,5 @@ xOverFNs--交叉函数名称表，以空格分开，如['arithXoverheuristicXove
 xOverOps--传递给交叉函数的参数表，如[20;23;20]
 mutFNs--变异函数表，如['boundaryMutationmultiNonUnifMutationnonUnifMutationunifMutation']
 mutOps--传递给交叉函数的参数表,如[400;61003;41003;400]
-
+````
 
